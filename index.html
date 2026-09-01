@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary SEO. Update the final website URL after publishing on GitHub Pages. -->
+  <title>Mohamed Tamaa | WordPress Developer and SEO Specialist</title>
+  <meta name="description" content="Portfolio of Mohamed Tamaa, a WordPress developer and SEO specialist creating bilingual, fast and conversion focused websites for clients across Egypt, Saudi Arabia and the UAE.">
+  <meta name="author" content="Mohamed Tamaa">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="theme-color" content="#07101f">
+
+  <!-- Social sharing metadata. Replace the image value with the absolute live URL after publishing. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mohamed Tamaa | WordPress Developer and SEO Specialist">
+  <meta property="og:description" content="Bilingual WordPress development, UI and UX, technical SEO, AEO, GEO and performance optimisation.">
+  <meta property="og:image" content="assets/mohamed-tamaa.webp">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:locale:alternate" content="ar_EG">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Tiny inline favicon keeps the portfolio independent from external assets. -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2307101f'/%3E%3Cpath d='M13 45V19h8l11 15 11-15h8v26h-8V31L32 46 21 31v14z' fill='%2355e6c1'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/mohamed-tamaa.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Add the JavaScript class immediately so the loader never affects no script visitors. -->
+  <script>document.documentElement.classList.add("js");</script>
+
+  <!-- Structured data supports search engines and AI discovery systems. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "#mohamed-tamaa",
+        "name": "Mohamed Tamaa",
+        "alternateName": "محمد طماعة",
+        "image": "assets/mohamed-tamaa.webp",
+        "email": "mailto:mtamaaa@gmail.com",
+        "telephone": "+201143327612",
+        "jobTitle": [
+          "WordPress Developer",
+          "SEO Specialist",
+          "Web Designer"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Zahraa El Maadi",
+          "addressRegion": "Cairo",
+          "addressCountry": "EG"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/mohamedtamaa/"
+        ],
+        "knowsLanguage": ["English", "Arabic"],
+        "knowsAbout": [
+          "WordPress development",
+          "Elementor Pro",
+          "WooCommerce",
+          "Technical SEO",
+          "Answer engine optimisation",
+          "Generative engine optimisation",
+          "Responsive web design",
+          "Core Web Vitals",
+          "Google Search Console",
+          "Google Analytics 4"
+        ],
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "Ahram Canadian University"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "name": "Selected website projects by Mohamed Tamaa",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "url": "https://www.it-pillars.com/", "name": "IT Pillars"},
+          {"@type": "ListItem", "position": 2, "url": "https://techwave.sa/", "name": "Tech Wave"},
+          {"@type": "ListItem", "position": 3, "url": "https://daraden.com/", "name": "Dar Aden"},
+          {"@type": "ListItem", "position": 4, "url": "https://redsealife.com/", "name": "Red Sea Life Diving Center"},
+          {"@type": "ListItem", "position": 5, "url": "https://yaquotitech.com/", "name": "Yaquoti Tech"},
+          {"@type": "ListItem", "position": 6, "url": "https://jidar.app/", "name": "Jidar App"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What website projects does Mohamed Tamaa take on?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mohamed works on WordPress websites, landing pages, WooCommerce stores, bilingual websites, website redesigns, technical SEO and performance optimisation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Mohamed build Arabic and English websites?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Mohamed builds bilingual English and Arabic websites with language appropriate layouts, right to left support, content structure and search optimisation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can Mohamed improve an existing WordPress website?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Existing websites can be improved through UI and UX refinement, speed work, Core Web Vitals, mobile responsiveness, technical SEO and conversion focused content structure."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <!-- Accessibility shortcut -->
+  <a class="skip_link" href="#main" data-en="Skip to content" data-ar="انتقل إلى المحتوى">Skip to content</a>
+
+  <!-- Lightweight loading screen -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader_inner">
+      <span class="loader_mark">MT</span>
+      <span class="loader_line"><span></span></span>
+    </div>
+  </div>
+
+  <!-- Decorative pointer glow appears only on precise pointer devices -->
+  <div class="pointer_glow" id="pointerGlow" aria-hidden="true"></div>
+
+  <!-- Reading progress -->
+  <div class="scroll_progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site_header" id="siteHeader">
+    <div class="container nav_wrap">
+      <a class="brand" href="#home" aria-label="Mohamed Tamaa home">
+        <span class="brand_mark">MT</span>
+        <span class="brand_copy">
+          <strong>Mohamed Tamaa</strong>
+          <small data-en="Digital experiences that perform" data-ar="تجارب رقمية تحقق نتائج">Digital experiences that perform</small>
+        </span>
+      </a>
+
+      <nav class="main_nav" id="mainNav" aria-label="Primary navigation" data-aria-en="Primary navigation" data-aria-ar="التنقل الرئيسي">
+        <a href="#about" data-en="About" data-ar="نبذة">About</a>
+        <a href="#expertise" data-en="Expertise" data-ar="الخبرات">Expertise</a>
+        <a href="#work" data-en="Work" data-ar="الأعمال">Work</a>
+        <a href="#experience" data-en="Experience" data-ar="المسيرة">Experience</a>
+        <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+      </nav>
+
+      <div class="nav_actions">
+        <button class="icon_button theme_toggle" id="themeToggle" type="button" aria-label="Switch colour theme" data-aria-en="Switch colour theme" data-aria-ar="تغيير ألوان الموقع">
+          <svg class="sun_icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path></svg>
+          <svg class="moon_icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <button class="language_toggle" id="languageToggle" type="button" aria-label="Switch to Arabic" aria-pressed="false">
+          <!--<span class="language_icon">ع</span>-->
+          <span id="languageLabel">العربية</span>
+        </button>
+
+        <button class="menu_toggle" id="menuToggle" type="button" aria-label="Open menu" data-aria-en="Open menu" data-aria-ar="فتح القائمة" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero section -->
+    <section class="hero section" id="home" aria-labelledby="heroTitle">
+      <div class="hero_grid" aria-hidden="true"></div>
+      <div class="hero_orb orb_one" aria-hidden="true"></div>
+      <div class="hero_orb orb_two" aria-hidden="true"></div>
+
+      <div class="container hero_layout">
+        <div class="hero_content reveal">
+          <div class="availability">
+            <span class="status_dot"></span>
+            <span data-en="Available for selected freelance projects" data-ar="متاح لمشروعات مستقلة مختارة">Available for selected freelance projects</span>
+          </div>
+
+          <p class="eyebrow" data-en="WordPress Developer • SEO Specialist • Web Designer" data-ar="مطور ووردبريس • متخصص SEO • مصمم مواقع">WordPress Developer • SEO Specialist • Web Designer</p>
+
+          <h1 id="heroTitle">
+            <span data-en="I build websites that are" data-ar="أبني مواقع رقمية">I build websites that are</span>
+            <span class="gradient_text" data-en="found, trusted and chosen." data-ar="تُكتشف وتكسب الثقة وتدفع للاختيار.">found, trusted and chosen.</span>
+          </h1>
+
+          <p class="hero_intro" data-en="I am Mohamed Tamaa, a WordPress developer and SEO specialist creating fast, bilingual and conversion focused digital experiences for ambitious businesses across Egypt, Saudi Arabia and the UAE." data-ar="أنا محمد طماعة، مطور ووردبريس ومتخصص SEO. أصمم تجارب رقمية سريعة وثنائية اللغة ومهيأة للتحويل للشركات الطموحة في مصر والسعودية والإمارات.">I am Mohamed Tamaa, a WordPress developer and SEO specialist creating fast, bilingual and conversion focused digital experiences for ambitious businesses across Egypt, Saudi Arabia and the UAE.</p>
+
+          <div class="role_line" aria-live="polite">
+            <span data-en="Focused on" data-ar="أركز على">Focused on</span>
+            <strong id="typedRole">WordPress development</strong>
+          </div>
+
+          <div class="hero_actions">
+            <a class="button button_primary magnetic" href="#work">
+              <span data-en="Explore my work" data-ar="استعرض أعمالي">Explore my work</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+            </a>
+            <a class="button button_secondary magnetic" href="mailto:mtamaaa@gmail.com">
+              <span data-en="Start a project" data-ar="ابدأ مشروعك">Start a project</span>
+            </a>
+          </div>
+
+          <div class="hero_meta" aria-label="Professional highlights" data-aria-en="Professional highlights" data-aria-ar="أبرز الخبرات">
+            <div class="metric">
+              <strong><span class="counter" data-target="9">0</span>+</strong>
+              <span data-en="Years across web projects" data-ar="سنوات في مشروعات الويب">Years across web projects</span>
+            </div>
+            <div class="metric">
+              <strong><span class="counter" data-target="6">0</span></strong>
+              <span data-en="Featured live projects" data-ar="مشروعات حية مختارة">Featured live projects</span>
+            </div>
+            <div class="metric">
+              <strong><span class="counter" data-target="3">0</span></strong>
+              <span data-en="Regional markets" data-ar="أسواق إقليمية">Regional markets</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero_visual reveal reveal_delay" aria-label="Portrait of Mohamed Tamaa" data-aria-en="Portrait of Mohamed Tamaa" data-aria-ar="صورة محمد طماعة">
+          <div class="portrait_stage">
+            <div class="portrait_ring ring_outer"></div>
+            <div class="portrait_ring ring_inner"></div>
+            <div class="portrait_frame">
+              <img src="assets/mohamed-tamaa.webp" width="1200" height="1200" alt="Mohamed Tamaa, WordPress developer and SEO specialist" data-alt-en="Mohamed Tamaa, WordPress developer and SEO specialist" data-alt-ar="محمد طماعة، مطور ووردبريس ومتخصص SEO" fetchpriority="high">
+            </div>
+
+            <div class="floating_badge badge_code">
+              <span class="badge_icon">&lt;/&gt;</span>
+              <span data-en="Clean build" data-ar="بناء احترافي">Clean build</span>
+            </div>
+            <div class="floating_badge badge_search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"></circle><path d="m16 16 4 4"></path></svg>
+              <span>SEO • AEO • GEO</span>
+            </div>
+            <div class="floating_badge badge_speed">
+              <span class="speed_pulse"></span>
+              <span data-en="Performance first" data-ar="الأداء أولاً">Performance first</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll_hint" href="#about" aria-label="Scroll to about section" data-aria-en="Scroll to about section" data-aria-ar="انتقل إلى قسم النبذة">
+        <span data-en="Scroll" data-ar="مرر">Scroll</span>
+        <i></i>
+      </a>
+    </section>
+
+    <!-- About section -->
+    <section class="section about" id="about" aria-labelledby="aboutTitle">
+      <div class="container">
+        <div class="section_heading reveal">
+          <p class="section_kicker"><span>01</span><span data-en="About me" data-ar="نبذة عني">About me</span></p>
+          <h2 id="aboutTitle" data-en="Business thinking meets digital craft." data-ar="فهم الأعمال يلتقي بالحرفية الرقمية.">Business thinking meets digital craft.</h2>
+        </div>
+
+        <div class="about_grid">
+          <article class="about_statement reveal">
+            <p class="lead" data-en="I turn complex business requirements into clear, fast and persuasive web experiences." data-ar="أحوّل متطلبات الأعمال المعقدة إلى تجارب ويب واضحة وسريعة ومقنعة.">I turn complex business requirements into clear, fast and persuasive web experiences.</p>
+            <p data-en="My work brings together WordPress development, UI and UX thinking, technical SEO and content structure. Every page is designed to serve the visitor, support the sales journey and give search engines and AI systems a clear understanding of the business." data-ar="يجمع عملي بين تطوير ووردبريس وتخطيط تجربة المستخدم وتحسين SEO التقني وهندسة المحتوى. أصمم كل صفحة لخدمة الزائر ودعم رحلة البيع ومنح محركات البحث وأنظمة الذكاء الاصطناعي فهماً واضحاً للنشاط.">My work brings together WordPress development, UI and UX thinking, technical SEO and content structure. Every page is designed to serve the visitor, support the sales journey and give search engines and AI systems a clear understanding of the business.</p>
+            <p data-en="My background in HR systems adds a practical understanding of structured data, workflows, reporting and process improvement. That combination helps me build websites that look refined and work intelligently behind the interface." data-ar="تمنحني خلفيتي في أنظمة الموارد البشرية فهماً عملياً للبيانات المنظمة ومسارات العمل والتقارير وتحسين الإجراءات. ويساعدني هذا المزيج على بناء مواقع تبدو مميزة وتعمل بذكاء خلف الواجهة.">My background in HR systems adds a practical understanding of structured data, workflows, reporting and process improvement. That combination helps me build websites that look refined and work intelligently behind the interface.</p>
+
+            <div class="signature_row">
+              <span class="signature">Mohamed Tamaa</span>
+              <a class="text_link" href="assets/Mohamed-Tamaa-CV.pdf" download>
+                <span data-en="Download my CV" data-ar="تحميل السيرة الذاتية">Download my CV</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <div class="about_cards reveal reveal_delay">
+            <article class="value_card">
+              <span class="value_number">01</span>
+              <div>
+                <h3 data-en="Strategy before screens" data-ar="الاستراتيجية قبل التصميم">Strategy before screens</h3>
+                <p data-en="I start with the audience, search intent and business goal before choosing a layout." data-ar="أبدأ بالجمهور وهدف البحث والنتيجة التجارية قبل اختيار شكل التصميم.">I start with the audience, search intent and business goal before choosing a layout.</p>
+              </div>
+            </article>
+            <article class="value_card">
+              <span class="value_number">02</span>
+              <div>
+                <h3 data-en="Clarity in every detail" data-ar="وضوح في كل تفصيلة">Clarity in every detail</h3>
+                <p data-en="Structure, content and interaction work together to make the next action obvious." data-ar="يعمل الهيكل والمحتوى والتفاعل معاً ليكون الإجراء التالي واضحاً للزائر.">Structure, content and interaction work together to make the next action obvious.</p>
+              </div>
+            </article>
+            <article class="value_card">
+              <span class="value_number">03</span>
+              <div>
+                <h3 data-en="Built for measurable growth" data-ar="مبني للنمو القابل للقياس">Built for measurable growth</h3>
+                <p data-en="Fast foundations, clean tracking and search ready content support long term performance." data-ar="أساس سريع وتتبع واضح ومحتوى مهيأ للبحث يدعم الأداء والنمو المستمر.">Fast foundations, clean tracking and search ready content support long term performance.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertise section -->
+    <section class="section expertise" id="expertise" aria-labelledby="expertiseTitle">
+      <div class="container">
+        <div class="section_heading split_heading reveal">
+          <div>
+            <p class="section_kicker"><span>02</span><span data-en="Core expertise" data-ar="الخبرات الأساسية">Core expertise</span></p>
+            <h2 id="expertiseTitle" data-en="One partner for the complete website journey." data-ar="شريك واحد لرحلة الموقع كاملة.">One partner for the complete website journey.</h2>
+          </div>
+          <p data-en="From the first page structure to launch, measurement and search growth, I connect the details that make a website useful, visible and valuable." data-ar="من هيكلة الصفحات الأولى حتى الإطلاق والقياس والنمو في البحث، أربط التفاصيل التي تجعل الموقع مفيداً وواضحاً وذا قيمة.">From the first page structure to launch, measurement and search growth, I connect the details that make a website useful, visible and valuable.</p>
+        </div>
+
+        <div class="skills_grid">
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4zM4 9h16M9 9v11"></path></svg></div>
+            <span class="skill_index">01</span>
+            <h3 data-en="WordPress development" data-ar="تطوير ووردبريس">WordPress development</h3>
+            <p data-en="Custom Elementor Pro builds, reusable sections, forms, templates, dynamic content and dependable maintenance." data-ar="بناء مخصص عبر Elementor Pro وأقسام قابلة لإعادة الاستخدام ونماذج وقوالب ومحتوى ديناميكي وصيانة موثوقة.">Custom Elementor Pro builds, reusable sections, forms, templates, dynamic content and dependable maintenance.</p>
+            <div class="skill_tags"><span>WordPress</span><span>Elementor Pro</span><span>PHP</span></div>
+          </article>
+
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18l-2 10H6L3 3H1M8 20h.01M17 20h.01"></path></svg></div>
+            <span class="skill_index">02</span>
+            <h3 data-en="WooCommerce experiences" data-ar="تجارب WooCommerce">WooCommerce experiences</h3>
+            <p data-en="Product architecture, mobile shopping journeys, checkout refinement, booking flows and conversion focused storefronts." data-ar="هيكلة المنتجات وتجارب تسوق مهيأة للجوال وتحسين الدفع والحجوزات ومتاجر تركز على التحويل.">Product architecture, mobile shopping journeys, checkout refinement, booking flows and conversion focused storefronts.</p>
+            <div class="skill_tags"><span>WooCommerce</span><span data-en="Bookings" data-ar="الحجوزات">Bookings</span><span data-en="Conversion" data-ar="التحويل">Conversion</span></div>
+          </article>
+
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"></path></svg></div>
+            <span class="skill_index">03</span>
+            <h3 data-en="Front end development" data-ar="تطوير الواجهات">Front end development</h3>
+            <p data-en="Responsive interfaces and custom interactions using HTML, CSS, JavaScript, jQuery, Bootstrap and Ajax." data-ar="واجهات متجاوبة وتفاعلات مخصصة باستخدام HTML وCSS وJavaScript وjQuery وBootstrap وAjax.">Responsive interfaces and custom interactions using HTML, CSS, JavaScript, jQuery, Bootstrap and Ajax.</p>
+            <div class="skill_tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16 16 5 5M8 11h6M11 8v6"></path></svg></div>
+            <span class="skill_index">04</span>
+            <h3 data-en="SEO, AEO and GEO" data-ar="تحسين SEO وAEO وGEO">SEO, AEO and GEO</h3>
+            <p data-en="Technical foundations, search intent, schema, internal linking and content designed for search and AI discovery." data-ar="أساس تقني قوي وفهم نية البحث وSchema وربط داخلي ومحتوى مصمم للظهور في البحث والذكاء الاصطناعي.">Technical foundations, search intent, schema, internal linking and content designed for search and AI discovery.</p>
+            <div class="skill_tags"><span>SEO</span><span>AEO</span><span>GEO</span></div>
+          </article>
+
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18a8 8 0 1 1 16 0M12 18l4-7M7 18h10"></path></svg></div>
+            <span class="skill_index">05</span>
+            <h3 data-en="Performance optimisation" data-ar="تحسين الأداء والسرعة">Performance optimisation</h3>
+            <p data-en="Core Web Vitals, caching, image optimisation, lazy loading and code cleanup for a faster real experience." data-ar="تحسين Core Web Vitals والتخزين المؤقت والصور والتحميل الذكي وتنظيف الكود لتجربة أسرع فعلياً.">Core Web Vitals, caching, image optimisation, lazy loading and code cleanup for a faster real experience.</p>
+            <div class="skill_tags"><span>Core Web Vitals</span><span>LiteSpeed</span><span>PageSpeed</span></div>
+          </article>
+
+          <article class="skill_card reveal">
+            <div class="skill_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M6 16l4-5 3 3 5-8"></path><circle cx="18" cy="6" r="2"></circle></svg></div>
+            <span class="skill_index">06</span>
+            <h3 data-en="Analytics and search data" data-ar="التحليلات وبيانات البحث">Analytics and search data</h3>
+            <p data-en="Search Console, Analytics 4, indexing reviews and performance reporting that turn data into clear actions." data-ar="Google Search Console وAnalytics 4 ومراجعة الفهرسة وتقارير الأداء لتحويل البيانات إلى قرارات واضحة.">Search Console, Analytics 4, indexing reviews and performance reporting that turn data into clear actions.</p>
+            <div class="skill_tags"><span>GSC</span><span>GA4</span><span data-en="Reporting" data-ar="التقارير">Reporting</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected work section -->
+    <section class="section work" id="work" aria-labelledby="workTitle">
+      <div class="container">
+        <div class="section_heading split_heading reveal">
+          <div>
+            <p class="section_kicker"><span>03</span><span data-en="Selected work" data-ar="أعمال مختارة">Selected work</span></p>
+            <h2 id="workTitle" data-en="Live digital work built around real business goals." data-ar="أعمال رقمية حية مبنية حول أهداف أعمال حقيقية.">Live digital work built around real business goals.</h2>
+          </div>
+          <p data-en="A selection of bilingual platforms, service websites, ecommerce experiences and product stories created for different markets and audiences." data-ar="مجموعة مختارة من المنصات ثنائية اللغة ومواقع الخدمات والمتاجر الإلكترونية وتجارب المنتجات المصممة لأسواق وجماهير مختلفة.">A selection of bilingual platforms, service websites, ecommerce experiences and product stories created for different markets and audiences.</p>
+        </div>
+
+        <div class="projects_list">
+          <!-- Project 01 -->
+          <article class="project_card reveal" data-tilt>
+            <div class="project_visual project_pillars" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>IT Pillars</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Enterprise IT</span>
+                <strong>IT<br>Pillars</strong>
+                <div class="visual_lines"><i></i><i></i><i></i></div>
+                <div class="visual_panel"><b>01</b><b>02</b><b>03</b></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">01</span><span data-en="Saudi Arabia • Bilingual B2B" data-ar="السعودية • أعمال ثنائية اللغة">Saudi Arabia • Bilingual B2B</span></div>
+              <h3>IT Pillars</h3>
+              <p data-en="A bilingual enterprise technology website presenting ManageEngine and Zoho solutions for the Saudi market. My work covers WordPress development, solution and campaign pages, information architecture, responsive UI, technical SEO, content optimisation, analytics and ongoing performance improvements." data-ar="موقع تقني مؤسسي ثنائي اللغة يعرض حلول ManageEngine وZoho للسوق السعودي. يشمل عملي تطوير ووردبريس وصفحات الحلول والحملات وهندسة المعلومات والواجهات المتجاوبة وSEO التقني وتحسين المحتوى والتحليلات والأداء المستمر.">A bilingual enterprise technology website presenting ManageEngine and Zoho solutions for the Saudi market. My work covers WordPress development, solution and campaign pages, information architecture, responsive UI, technical SEO, content optimisation, analytics and ongoing performance improvements.</p>
+              <div class="project_tags"><span>WordPress</span><span>Elementor Pro</span><span>SEO</span><span>GA4</span></div>
+              <a class="project_link" href="https://www.it-pillars.com/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project_card project_reverse reveal" data-tilt>
+            <div class="project_visual project_wave" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>techwave.sa</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Digital Transformation</span>
+                <strong>TECH<br>WAVE</strong>
+                <div class="wave_shape"><i></i><i></i><i></i></div>
+                <div class="visual_panel"><b>IT</b><b>ERP</b><b>AI</b></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">02</span><span data-en="Saudi Arabia • Technology ecosystem" data-ar="السعودية • منظومة تقنية">Saudi Arabia • Technology ecosystem</span></div>
+              <h3>Tech Wave</h3>
+              <p data-en="A bilingual technology platform connecting IT management, ERP, CRM, automation and cybersecurity solutions. I developed responsive solution pages, strengthened the content architecture, improved the UI and UX, built topic focused content journeys and applied technical SEO and performance best practices." data-ar="منصة تقنية ثنائية اللغة تربط إدارة تقنية المعلومات وERP وCRM والأتمتة والأمن السيبراني. طورت صفحات حلول متجاوبة وعززت هيكل المحتوى وحسنت تجربة المستخدم وبنيت مسارات محتوى متخصصة وطبقت أفضل ممارسات SEO التقني والأداء.">A bilingual technology platform connecting IT management, ERP, CRM, automation and cybersecurity solutions. I developed responsive solution pages, strengthened the content architecture, improved the UI and UX, built topic focused content journeys and applied technical SEO and performance best practices.</p>
+              <div class="project_tags"><span>WordPress</span><span data-en="Bilingual" data-ar="ثنائي اللغة">Bilingual</span><span>UI and UX</span><span>SEO</span></div>
+              <a class="project_link" href="https://techwave.sa/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 03 -->
+          <article class="project_card reveal" data-tilt>
+            <div class="project_visual project_aden" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>daraden.com</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Luxury Ecommerce</span>
+                <strong>DAR<br>ADEN</strong>
+                <div class="aden_bottle"><i></i></div>
+                <div class="visual_lines"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">03</span><span data-en="UAE • Luxury ecommerce" data-ar="الإمارات • تجارة إلكترونية فاخرة">UAE • Luxury ecommerce</span></div>
+              <h3>Dar Aden</h3>
+              <p data-en="A refined ecommerce experience for a luxury attar house inspired by the heritage of Aden. The website combines brand storytelling with a clear product discovery and purchase journey, using elegant responsive design, WooCommerce structure, persuasive product presentation and search ready content." data-ar="تجربة تجارة إلكترونية راقية لدار عطور فاخرة مستوحاة من تراث عدن. يجمع الموقع بين سرد قصة العلامة ومسار واضح لاكتشاف المنتجات وشرائها عبر تصميم أنيق ومتجاوب وهيكلة WooCommerce وعرض مقنع للمنتجات ومحتوى مهيأ للبحث.">A refined ecommerce experience for a luxury attar house inspired by the heritage of Aden. The website combines brand storytelling with a clear product discovery and purchase journey, using elegant responsive design, WooCommerce structure, persuasive product presentation and search ready content.</p>
+              <div class="project_tags"><span>WooCommerce</span><span data-en="Brand experience" data-ar="تجربة العلامة">Brand experience</span><span>UI and UX</span><span>SEO</span></div>
+              <a class="project_link" href="https://daraden.com/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 04 -->
+          <article class="project_card project_reverse reveal" data-tilt>
+            <div class="project_visual project_redsea" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>redsealife.com</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Travel and Diving</span>
+                <strong>RED SEA<br>LIFE</strong>
+                <div class="bubble bubble_one"></div><div class="bubble bubble_two"></div><div class="bubble bubble_three"></div>
+                <div class="sea_wave"></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">04</span><span data-en="Egypt • Multilingual tourism" data-ar="مصر • سياحة متعددة اللغات">Egypt • Multilingual tourism</span></div>
+              <h3>Red Sea Life Diving Center</h3>
+              <p data-en="A multilingual WordPress and WooCommerce website for a PADI 5 Star diving centre in Hurghada. I shaped booking focused journeys for diving trips, courses, snorkelling and dive sites while improving mobile usability, product pages, technical SEO, Core Web Vitals, internal linking and search visibility." data-ar="موقع ووردبريس وWooCommerce متعدد اللغات لمركز غوص PADI 5 Star في الغردقة. صممت مسارات تركز على الحجز لرحلات الغوص والدورات والسنوركل ومواقع الغوص مع تحسين استخدام الجوال وصفحات المنتجات وSEO التقني وCore Web Vitals والربط الداخلي والظهور في البحث.">A multilingual WordPress and WooCommerce website for a PADI 5 Star diving centre in Hurghada. I shaped booking focused journeys for diving trips, courses, snorkelling and dive sites while improving mobile usability, product pages, technical SEO, Core Web Vitals, internal linking and search visibility.</p>
+              <div class="project_tags"><span>WooCommerce</span><span data-en="Multilingual" data-ar="متعدد اللغات">Multilingual</span><span data-en="Bookings" data-ar="الحجوزات">Bookings</span><span>SEO</span></div>
+              <a class="project_link" href="https://redsealife.com/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 05 -->
+          <article class="project_card reveal" data-tilt>
+            <div class="project_visual project_yaquoti" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>yaquotitech.com</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Workflow Platform</span>
+                <strong>YAQUOTI</strong>
+                <div class="workflow_map"><i></i><i></i><i></i><i></i></div>
+                <div class="visual_panel"><b>SLA</b><b>REQ</b><b>API</b></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">05</span><span data-en="UAE • Bilingual software platform" data-ar="الإمارات • منصة برمجية ثنائية اللغة">UAE • Bilingual software platform</span></div>
+              <h3>Yaquoti Tech</h3>
+              <p data-en="A bilingual product website for an enterprise workflow automation platform. I translated complex capabilities such as request management, approvals, service catalogues, SLA control, reporting and integrations into clear feature journeys supported by responsive design, technical SEO and a scalable content structure." data-ar="موقع منتج ثنائي اللغة لمنصة مؤسسية لأتمتة مسارات العمل. حولت إمكانات معقدة مثل إدارة الطلبات والموافقات وكتالوج الخدمات والتحكم في SLA والتقارير والتكاملات إلى مسارات واضحة مدعومة بتصميم متجاوب وSEO تقني وهيكل محتوى قابل للتوسع.">A bilingual product website for an enterprise workflow automation platform. I translated complex capabilities such as request management, approvals, service catalogues, SLA control, reporting and integrations into clear feature journeys supported by responsive design, technical SEO and a scalable content structure.</p>
+              <div class="project_tags"><span data-en="Product website" data-ar="موقع منتج">Product website</span><span data-en="Bilingual" data-ar="ثنائي اللغة">Bilingual</span><span>UI and UX</span><span>SEO</span></div>
+              <a class="project_link" href="https://yaquotitech.com/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 06 -->
+          <article class="project_card project_reverse reveal" data-tilt>
+            <div class="project_visual project_jidar" aria-hidden="true">
+              <div class="browser_bar"><span></span><span></span><span></span><small>jidar.app</small></div>
+              <div class="visual_body">
+                <span class="visual_label">Smart Living App</span>
+                <strong>JIDAR</strong>
+                <div class="phone_mock"><i></i><b></b><b></b><b></b></div>
+                <div class="jidar_orbit"></div>
+              </div>
+            </div>
+            <div class="project_content">
+              <div class="project_topline"><span class="project_number">06</span><span data-en="Saudi Arabia • Mobile app story" data-ar="السعودية • تجربة تطبيق جوال">Saudi Arabia • Mobile app story</span></div>
+              <h3>Jidar App</h3>
+              <p data-en="A bilingual digital product story for a smart building management app. The website explains resident expenses, payments, maintenance, reporting and notifications through a focused mobile first journey, supported by clear feature architecture, conversion points, technical SEO and an educational content programme." data-ar="قصة منتج رقمية ثنائية اللغة لتطبيق ذكي لإدارة المباني. يشرح الموقع مصروفات السكان والمدفوعات والصيانة والتقارير والإشعارات عبر رحلة واضحة مهيأة للجوال ومدعومة بهندسة مزايا واضحة ونقاط تحويل وSEO تقني وبرنامج محتوى تعليمي.">A bilingual digital product story for a smart building management app. The website explains resident expenses, payments, maintenance, reporting and notifications through a focused mobile first journey, supported by clear feature architecture, conversion points, technical SEO and an educational content programme.</p>
+              <div class="project_tags"><span>WordPress</span><span data-en="Mobile first" data-ar="مهيأ للجوال">Mobile first</span><span data-en="Product story" data-ar="قصة المنتج">Product story</span><span>SEO</span></div>
+              <a class="project_link" href="https://jidar.app/" target="_blank" rel="noopener noreferrer">
+                <span data-en="Visit live website" data-ar="زيارة الموقع">Visit live website</span>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience section -->
+    <section class="section experience" id="experience" aria-labelledby="experienceTitle">
+      <div class="container experience_layout">
+        <div class="experience_intro reveal">
+          <p class="section_kicker"><span>04</span><span data-en="Experience" data-ar="المسيرة المهنية">Experience</span></p>
+          <h2 id="experienceTitle" data-en="A career shaped by systems, people and digital growth." data-ar="مسيرة تشكلت من الأنظمة والأشخاص والنمو الرقمي.">A career shaped by systems, people and digital growth.</h2>
+          <p data-en="My experience combines hands on web delivery with structured operations. I understand the interface clients see and the workflows teams rely on behind it." data-ar="تجمع خبرتي بين تنفيذ المواقع عملياً وإدارة العمليات المنظمة. أفهم الواجهة التي يراها العميل ومسارات العمل التي تعتمد عليها الفرق خلفها.">My experience combines hands on web delivery with structured operations. I understand the interface clients see and the workflows teams rely on behind it.</p>
+
+          <div class="education_card">
+            <span data-en="Education" data-ar="التعليم">Education</span>
+            <strong data-en="Bachelor of Business Administration" data-ar="بكالوريوس إدارة الأعمال">Bachelor of Business Administration</strong>
+            <small data-en="Marketing • Ahram Canadian University • 2016 to 2020" data-ar="تخصص التسويق • جامعة الأهرام الكندية • 2016 إلى 2020">Marketing • Ahram Canadian University • 2016 to 2020</small>
+          </div>
+        </div>
+
+        <div class="timeline reveal reveal_delay">
+          <article class="timeline_item current">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="May 2026 to Present" data-ar="مايو 2026 حتى الآن">May 2026 to Present</div>
+            <div class="timeline_body">
+              <h3 data-en="WordPress Developer and SEO Specialist" data-ar="مطور ووردبريس ومتخصص SEO">WordPress Developer and SEO Specialist</h3>
+              <p>Jidar App • KSA • Remote</p>
+            </div>
+          </article>
+          <article class="timeline_item current">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="March 2026 to Present" data-ar="مارس 2026 حتى الآن">March 2026 to Present</div>
+            <div class="timeline_body">
+              <h3 data-en="WordPress Developer and SEO Specialist" data-ar="مطور ووردبريس ومتخصص SEO">WordPress Developer and SEO Specialist</h3>
+              <p>Yaquoti Tech • UAE • Remote</p>
+            </div>
+          </article>
+          <article class="timeline_item current">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="January 2026 to Present" data-ar="يناير 2026 حتى الآن">January 2026 to Present</div>
+            <div class="timeline_body">
+              <h3 data-en="WordPress Developer and SEO Specialist" data-ar="مطور ووردبريس ومتخصص SEO">WordPress Developer and SEO Specialist</h3>
+              <p>Tech Wave • KSA • Remote</p>
+            </div>
+          </article>
+          <article class="timeline_item current">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="November 2025 to Present" data-ar="نوفمبر 2025 حتى الآن">November 2025 to Present</div>
+            <div class="timeline_body">
+              <h3 data-en="WordPress Developer and SEO Specialist" data-ar="مطور ووردبريس ومتخصص SEO">WordPress Developer and SEO Specialist</h3>
+              <p>IT Pillars • Egypt</p>
+            </div>
+          </article>
+          <article class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="April 2023 to November 2025" data-ar="أبريل 2023 إلى نوفمبر 2025">April 2023 to November 2025</div>
+            <div class="timeline_body">
+              <h3 data-en="HR Systems and Operations Specialist" data-ar="متخصص أنظمة وعمليات الموارد البشرية">HR Systems and Operations Specialist</h3>
+              <p>Fine Hygienic Holding</p>
+            </div>
+          </article>
+          <article class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date" data-en="9+ years across personal and freelance projects" data-ar="أكثر من 9 سنوات في المشروعات الشخصية والمستقلة">9+ years across personal and freelance projects</div>
+            <div class="timeline_body">
+              <h3 data-en="Web Developer and WordPress Projects" data-ar="مطور ويب ومشروعات ووردبريس">Web Developer and WordPress Projects</h3>
+              <p data-en="Freelance and personal work" data-ar="عمل مستقل ومشروعات شخصية">Freelance and personal work</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Working process section -->
+    <section class="section process" id="process" aria-labelledby="processTitle">
+      <div class="container">
+        <div class="section_heading reveal">
+          <p class="section_kicker"><span>05</span><span data-en="How I work" data-ar="منهجي في العمل">How I work</span></p>
+          <h2 id="processTitle" data-en="A clear path from idea to measurable impact." data-ar="مسار واضح من الفكرة إلى أثر قابل للقياس.">A clear path from idea to measurable impact.</h2>
+        </div>
+
+        <div class="process_grid">
+          <article class="process_card reveal">
+            <span>01</span>
+            <h3 data-en="Discover" data-ar="الاكتشاف">Discover</h3>
+            <p data-en="I clarify the audience, business objective, search intent, content needs and technical constraints." data-ar="أحدد الجمهور والهدف التجاري ونية البحث واحتياجات المحتوى والقيود التقنية.">I clarify the audience, business objective, search intent, content needs and technical constraints.</p>
+          </article>
+          <article class="process_card reveal">
+            <span>02</span>
+            <h3 data-en="Structure" data-ar="الهيكلة">Structure</h3>
+            <p data-en="I map navigation, page hierarchy, messages and conversion points into a coherent user journey." data-ar="أرسم التنقل وتسلسل الصفحات والرسائل ونقاط التحويل ضمن رحلة مستخدم متماسكة.">I map navigation, page hierarchy, messages and conversion points into a coherent user journey.</p>
+          </article>
+          <article class="process_card reveal">
+            <span>03</span>
+            <h3 data-en="Build" data-ar="التنفيذ">Build</h3>
+            <p data-en="I create responsive pages, interactions, integrations and search ready foundations with careful quality checks." data-ar="أنفذ صفحات متجاوبة وتفاعلات وتكاملات وأساساً مهيأ للبحث مع مراجعات جودة دقيقة.">I create responsive pages, interactions, integrations and search ready foundations with careful quality checks.</p>
+          </article>
+          <article class="process_card reveal">
+            <span>04</span>
+            <h3 data-en="Improve" data-ar="التطوير">Improve</h3>
+            <p data-en="I monitor behaviour, speed and search data, then refine the experience around evidence and opportunity." data-ar="أراقب السلوك والسرعة وبيانات البحث ثم أحسن التجربة بناء على الأدلة والفرص.">I monitor behaviour, speed and search data, then refine the experience around evidence and opportunity.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section supports direct answers for people and answer engines -->
+    <section class="section faq" id="faq" aria-labelledby="faqTitle">
+      <div class="container faq_layout">
+        <div class="faq_intro reveal">
+          <p class="section_kicker"><span>06</span><span data-en="Common questions" data-ar="أسئلة شائعة">Common questions</span></p>
+          <h2 id="faqTitle" data-en="What clients usually want to know." data-ar="ما يريد العملاء معرفته غالباً.">What clients usually want to know.</h2>
+          <p data-en="If your question is not here, send me a message and I will give you a clear answer." data-ar="إذا لم تجد سؤالك هنا، أرسل لي رسالة وسأقدم لك إجابة واضحة.">If your question is not here, send me a message and I will give you a clear answer.</p>
+        </div>
+
+        <div class="accordion reveal reveal_delay">
+          <article class="accordion_item is_open">
+            <button class="accordion_trigger" type="button" aria-expanded="true">
+              <span data-en="What types of projects do you take on?" data-ar="ما أنواع المشروعات التي تعمل عليها؟">What types of projects do you take on?</span>
+              <i></i>
+            </button>
+            <div class="accordion_panel">
+              <p data-en="I work on WordPress websites, landing pages, WooCommerce stores, bilingual websites, website redesigns, technical SEO, content structure, speed optimisation and ongoing website improvement." data-ar="أعمل على مواقع ووردبريس وصفحات الهبوط ومتاجر WooCommerce والمواقع ثنائية اللغة وإعادة التصميم وSEO التقني وهيكلة المحتوى وتحسين السرعة والتطوير المستمر للمواقع.">I work on WordPress websites, landing pages, WooCommerce stores, bilingual websites, website redesigns, technical SEO, content structure, speed optimisation and ongoing website improvement.</p>
+            </div>
+          </article>
+          <article class="accordion_item">
+            <button class="accordion_trigger" type="button" aria-expanded="false">
+              <span data-en="Can you build Arabic and English websites?" data-ar="هل يمكنك بناء مواقع عربية وإنجليزية؟">Can you build Arabic and English websites?</span>
+              <i></i>
+            </button>
+            <div class="accordion_panel">
+              <p data-en="Yes. I build bilingual websites with proper right to left support, language matched navigation, responsive layouts, content structure and search optimisation for both audiences." data-ar="نعم. أبني مواقع ثنائية اللغة بدعم كامل للاتجاه من اليمين إلى اليسار وتنقل مناسب لكل لغة وتصميم متجاوب وهيكلة محتوى وتحسين بحث للجمهورين.">Yes. I build bilingual websites with proper right to left support, language matched navigation, responsive layouts, content structure and search optimisation for both audiences.</p>
+            </div>
+          </article>
+          <article class="accordion_item">
+            <button class="accordion_trigger" type="button" aria-expanded="false">
+              <span data-en="Can you improve an existing WordPress website?" data-ar="هل يمكنك تحسين موقع ووردبريس قائم؟">Can you improve an existing WordPress website?</span>
+              <i></i>
+            </button>
+            <div class="accordion_panel">
+              <p data-en="Yes. I can review and improve the design, mobile experience, Core Web Vitals, technical SEO, page structure, indexability, analytics setup and conversion journey without rebuilding everything unnecessarily." data-ar="نعم. يمكنني مراجعة وتحسين التصميم وتجربة الجوال وCore Web Vitals وSEO التقني وهيكل الصفحات والفهرسة والتحليلات ومسار التحويل دون إعادة بناء كل شيء بلا داع.">Yes. I can review and improve the design, mobile experience, Core Web Vitals, technical SEO, page structure, indexability, analytics setup and conversion journey without rebuilding everything unnecessarily.</p>
+            </div>
+          </article>
+          <article class="accordion_item">
+            <button class="accordion_trigger" type="button" aria-expanded="false">
+              <span data-en="How do SEO, AEO and GEO fit into development?" data-ar="كيف تدمج SEO وAEO وGEO مع التطوير؟">How do SEO, AEO and GEO fit into development?</span>
+              <i></i>
+            </button>
+            <div class="accordion_panel">
+              <p data-en="They shape the website from the beginning. Semantic structure, speed, schema, direct answers, entity clarity, internal links and useful content help traditional search engines, answer engines and AI discovery systems understand and recommend the website." data-ar="تؤثر هذه العناصر في الموقع منذ البداية. تساعد البنية الدلالية والسرعة وSchema والإجابات المباشرة ووضوح الكيانات والروابط الداخلية والمحتوى المفيد محركات البحث ومحركات الإجابة وأنظمة اكتشاف الذكاء الاصطناعي على فهم الموقع وترشيحه.">They shape the website from the beginning. Semantic structure, speed, schema, direct answers, entity clarity, internal links and useful content help traditional search engines, answer engines and AI discovery systems understand and recommend the website.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact_orb" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact_shell reveal">
+          <div class="contact_copy">
+            <p class="section_kicker"><span>07</span><span data-en="Start a conversation" data-ar="ابدأ المحادثة">Start a conversation</span></p>
+            <h2 id="contactTitle" data-en="Have a website in mind? Let us make it impossible to ignore." data-ar="لديك فكرة لموقع؟ لنجعلها تجربة يصعب تجاهلها.">Have a website in mind? Let us make it impossible to ignore.</h2>
+            <p data-en="Tell me what you are building, what is not working or where you want to grow. I will help you turn it into a clear digital plan." data-ar="أخبرني بما تريد بناءه أو ما لا يعمل حالياً أو أين تريد النمو، وسأساعدك على تحويله إلى خطة رقمية واضحة.">Tell me what you are building, what is not working or where you want to grow. I will help you turn it into a clear digital plan.</p>
+
+            <div class="contact_links">
+              <a href="mailto:mtamaaa@gmail.com">
+                <span class="contact_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3zM3 6l9 7 9-7"></path></svg></span>
+                <span><small data-en="Email" data-ar="البريد الإلكتروني">Email</small><strong>mtamaaa@gmail.com</strong></span>
+              </a>
+              <a href="tel:+201143327612">
+                <span class="contact_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-3 2a16 16 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2A17 17 0 0 1 3 5c0-1 1-2 2-2z"></path></svg></span>
+                <span><small data-en="Phone" data-ar="الهاتف">Phone</small><strong>+20 114 332 7612</strong></span>
+              </a>
+              <a href="https://www.linkedin.com/in/mohamedtamaa/" target="_blank" rel="noopener noreferrer">
+                <span class="contact_icon linkedin_icon">in</span>
+                <span><small>LinkedIn</small><strong>mohamedtamaa</strong></span>
+              </a>
+              <div class="contact_location">
+                <span class="contact_icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0z"></path><circle cx="12" cy="10" r="2"></circle></svg></span>
+                <span><small data-en="Location" data-ar="الموقع">Location</small><strong data-en="Zahraa El Maadi, Cairo" data-ar="زهراء المعادي، القاهرة">Zahraa El Maadi, Cairo</strong></span>
+              </div>
+            </div>
+
+            <a class="whatsapp_link" href="https://wa.me/201143327612" target="_blank" rel="noopener noreferrer">
+              <span data-en="Message me on WhatsApp" data-ar="راسلني على واتساب">Message me on WhatsApp</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.1A8.5 8.5 0 1 1 20 11.5z"></path><path d="M8 8c.5 3 2.5 5 5.5 5.7"></path></svg>
+            </a>
+          </div>
+
+          <form class="contact_form" id="contactForm">
+            <div class="form_heading">
+              <span data-en="Project enquiry" data-ar="طلب مشروع">Project enquiry</span>
+              <small data-en="This form opens your email app securely" data-ar="يفتح هذا النموذج تطبيق البريد لديك بأمان">This form opens your email app securely</small>
+            </div>
+
+            <label>
+              <span data-en="Your name" data-ar="الاسم">Your name</span>
+              <input id="contactName" name="name" type="text" autocomplete="name" required data-placeholder-en="How should I address you?" data-placeholder-ar="كيف يمكنني مناداتك؟" placeholder="How should I address you?">
+            </label>
+
+            <label>
+              <span data-en="Your email" data-ar="البريد الإلكتروني">Your email</span>
+              <input id="contactEmail" name="email" type="email" autocomplete="email" required data-placeholder-en="name@company.com" data-placeholder-ar="name@company.com" placeholder="name@company.com">
+            </label>
+
+            <label>
+              <span data-en="What do you need?" data-ar="ما الخدمة التي تحتاجها؟">What do you need?</span>
+              <select id="contactService" name="service" required>
+                <option value="" data-en="Choose a service" data-ar="اختر الخدمة">Choose a service</option>
+                <option value="WordPress website" data-en="WordPress website" data-ar="موقع ووردبريس">WordPress website</option>
+                <option value="Website redesign" data-en="Website redesign" data-ar="إعادة تصميم موقع">Website redesign</option>
+                <option value="WooCommerce store" data-en="WooCommerce store" data-ar="متجر WooCommerce">WooCommerce store</option>
+                <option value="SEO AEO GEO" data-en="SEO, AEO and GEO" data-ar="تحسين SEO وAEO وGEO">SEO, AEO and GEO</option>
+                <option value="Website optimisation" data-en="Speed and technical optimisation" data-ar="تحسين السرعة والجوانب التقنية">Speed and technical optimisation</option>
+                <option value="Other project" data-en="Another project" data-ar="مشروع آخر">Another project</option>
+              </select>
+            </label>
+
+            <label>
+              <span data-en="Project details" data-ar="تفاصيل المشروع">Project details</span>
+              <textarea id="contactMessage" name="message" rows="5" required data-placeholder-en="Tell me about your goals, current website and preferred timeline." data-placeholder-ar="أخبرني عن أهدافك وموقعك الحالي والوقت المناسب للتنفيذ." placeholder="Tell me about your goals, current website and preferred timeline."></textarea>
+            </label>
+
+            <button class="button button_primary form_submit" type="submit">
+              <span data-en="Prepare email" data-ar="تجهيز الرسالة">Prepare email</span>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4zM22 2 11 13"></path></svg>
+            </button>
+            <p class="form_status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site_footer">
+    <div class="container footer_inner">
+      <div>
+        <a class="brand footer_brand" href="#home"><span class="brand_mark">MT</span><strong>Mohamed Tamaa</strong></a>
+        <p data-en="WordPress development, search visibility and digital experiences built to perform." data-ar="تطوير ووردبريس وظهور في البحث وتجارب رقمية مصممة لتحقيق نتائج.">WordPress development, search visibility and digital experiences built to perform.</p>
+      </div>
+      <div class="footer_links">
+        <a href="#about" data-en="About" data-ar="نبذة">About</a>
+        <a href="#work" data-en="Work" data-ar="الأعمال">Work</a>
+        <a href="#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+        <a href="assets/Mohamed-Tamaa-CV.pdf" download data-en="Download CV" data-ar="تحميل السيرة">Download CV</a>
+      </div>
+      <p class="copyright">© <span id="currentYear"></span> Mohamed Tamaa. <span data-en="All rights reserved." data-ar="جميع الحقوق محفوظة.">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <button class="back_to_top" id="backToTop" type="button" aria-label="Back to top" data-aria-en="Back to top" data-aria-ar="العودة إلى الأعلى">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6"></path></svg>
+  </button>
+
+  <noscript>
+    <div class="noscript_notice">JavaScript is required for language switching and motion. All contact links remain available.</div>
+  </noscript>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
