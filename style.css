@@ -752,7 +752,10 @@ html[dir="rtl"] .hero h1 {
 .metric {
   display: grid;
   gap: 3px;
-  text-align: center
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  padding: 10
 }
 
 .metric strong {
@@ -764,7 +767,7 @@ html[dir="rtl"] .hero h1 {
 
 .metric span:last-child {
   color: var(--muted);
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 /* Hero portrait */
@@ -2674,7 +2677,6 @@ html[dir="rtl"] .back_to_top {
   }
 
   .theme_toggle {
-    display: none;
   }
 
   .hero {
@@ -2727,7 +2729,7 @@ html[dir="rtl"] .back_to_top {
   }
 
   .metric span:last-child {
-    font-size: 0.61rem;
+    font-size: 1.2rem;
     line-height: 1.45;
   }
 
